@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,900;1,100;1,300&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css" />
+  <title>D4SG Hackathon</title>
+</head>
+<body>
+
+  <section id="navbar">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-section">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="styles\images\D4SG-RGB-Logo-RIcon-Background-Colour-3.jpg" alt="navbar-logo" width="100" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#challenges">
+                Challenges
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#agenda">
+                Hackathon Timeline
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#prizes-content">
+                Prizes
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#become-a-sponsor">
+                How to become a sponsor
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section id='header' >
+    <div class="container-fluid header-container vh-100 d-flex align-items-center">
+      <!-- particles.js container -->
+      <div id="particles-js" style='height: 100vh;'></div>
+      <div class="container align-middle" >
+        <div class="row align-middle">
+          <div class="col-12">
+            <h1 class='header-title' >
+              D4SG Hackathon
+            </h1>
+            <p class='header-text'>
+              Promoting social good through technology and computer science.
+            </p>
+          </div>
+          <div class="col-8 col-lg-3 col-md-6 d-grid">
+            <button id="headerParticipantButton" class="btn btn-outline-light btn-block call-to-action-header-button">
+              <h5>
+                Register as a participant
+              </h5>
+            </button>
+          </div>
+          <div class="col-4 col-lg-8 col-md-6"></div>
+          <div class="col-8 col-lg-3 col-md-6 d-grid">
+            <button id="headerSponsorButton" class="btn btn-lg btn-block call-to-action-header-button">
+              <h5>
+                Register as a sponsor
+              </h5>
+            </button>
+          </div>
+          <div class="col-4 col-lg-8 col-md-6"></div>
+          <div class="col-12">
+            <h5 class='header-date'>
+              Saturday 5th February – Monday 7th February 2022
+            </h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="challenges">
+    <div class="container challenges-container">
+      <div class="challenges_oversec">
+        <h1>Challenges</h1>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-col-xl-6 container challenges_cardsec">
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\defence.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\card-icon_1.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Government - Defence
+              </a></h5>
+              <p class="challenge-text">How to build challenger AI models for wargame scenarios.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\solarhouse.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\buildings.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Property Sustainable solutions
+              </a></h5>
+              <p class="challenge-text">How governments and property developers can work together for sustainable new developments.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\cotton.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\t-shirt.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Retail Ethical Sourcing
+              </a></h5>
+              <p class="challenge-text">How a brand can be an industry leader in ethical sourcing?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\money.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\online-banking.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Finance Banking
+              </a></h5>
+              <p class="challenge-text">How to avoid transition risk in light of APRA’s focus on climate-based vulnerability ?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\energy.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\ecosystem.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Energy Sector
+              </a></h5>
+              <p class="challenge-text">How can the energy industry move towards providing affordable renewable energy to the public?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\vaccine_img.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\vaccine.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Health Vaccine Rollout
+              </a></h5>
+              <p class="challenge-text">How can we get more people to vaccinate?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\mining_1.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\mining.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Mining Community Growth
+              </a></h5>
+              <p class="challenge-text">How can mining companies better allocate resources to regional communities?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col challenge">
+          <div class="card h-100px cardchallenge">
+            <img src="styles\images\mining_2.jpg" class="card-img-top" alt="...">
+            <img src="styles\images\data-mining.png" class="card-icon" alt="...">
+            <img src="styles\images\white circle.png" class="card-circle" alt="...">
+            <div class="challenge-body">
+              <a class="challenge-link" href="...">
+                <h5 class="challenge-title">Mining Automation
+              </a></h5>
+              <p class="challenge-text">What automation opportunities are available for mining companies, for ‘clean’ energy sources?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---Agenda--->
+
+  <section id="agenda">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="timeline_title">
+                <h1 class="card-title mb-5">Hackathon Timeline</h1>
+              </div>
+              <div class="timeline_allcontent">
+                <div class="hori-timeline" dir="ltr">
+                  <ul class="list-inline events">
+                    <li class="list-inline-item event-list">
+                      <div class="px-4">
+                        <div class="event-date bg-soft-danger">10 January</div>
+                        <div class="event_title">
+                          <h5 class="font-size-16">Registration <br> Opens</h5>
+                        </div>
+                        <div class="events_content">
+                          <p class="text-muted">  Register your team in advance or join a team on registration day. Register soon and challenge yourself</p>
+                        </div>
+                        <div>
+                          <a href="#offcanvasExample1" class="btn btn-primary btn-sm readmore" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample1">Read more</a>
+                        </div>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample1" aria-labelledby="offcanvasExampleLabel1">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel1">How to Register</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
+                            <div>
+                              <table>
+                                <tr>
+                                  <td class="column1">Step-1 :</td>
+                                  <td>Just find the list of challenges you are interested</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">Step-2 :</td>
+                                  <td>Register yourself for the Hackathons</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">Step-3 :</td>
+                                  <td>Spread the word to your buddies</td>
+                                </tr>
+                              </table>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-inline-item event-list">
+                      <div class="px-4">
+                        <div class="event-date bg-soft-danger">5 February</div>
+                        <div class="event_title">
+                          <h5 class="font-size-16">Day - 1 <br> Event Starts</h5>
+                        </div>
+                        <div class="events_content">
+                          <p class="text-muted"> Connect as a community, learn new skills, solve challenges and develop smart industry solutions.</p>
+                        </div>
+                        <div>
+                          <a href="#offcanvasExample2" class="btn btn-primary btn-sm readmore" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample2">Read more</a>
+                        </div>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel2">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel2">DAY 1: FRIDAY 6PM –11PM </h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
+                            <div>
+                                <table>
+                                  <tr>
+                                    <td class="column1">6:00 pm :</td>
+                                    <td>Kick off<br>Introduction from sponsors <br> Problem Statement<br>Schedule for hackathon Weekend</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="column1">6:30 pm :</td>
+                                    <td> Networking and ice breaker</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="column1">6:45 pm :</td>
+                                    <td> Invite and Welcome the Experts <br> Group formation</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="column1">7:15 pm :</td>
+                                    <td> Team Work begins</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="column1">8:00 pm :</td>
+                                    <td> Keynotes and Interviews</td>
+                                  </tr>
+                                  <tr>
+                                    <td class="column1">11:00 pm :</td>
+                                    <td> Lights out</td>
+                                  </tr>
+                                </table>.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </li>
+                    <li class="list-inline-item event-list">
+                      <div class="px-4">
+                        <div class="event-date bg-soft-danger">6 February</div>
+                        <div class="event_title">
+                          <h5 class="font-size-16">Day 2 <br> Time to Hack</h5>
+                        </div>
+                        <div class="events_content">
+                          <p class="text-muted">Use your expertise in Data science and Technology, to solve real problems and build cool stuff</p>
+                        </div>
+                        <div>
+                          <a href="#offcanvasExample3" class="btn btn-primary btn-sm readmore" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample3">Read more</a>
+                        </div>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample3" aria-labelledby="offcanvasExampleLabel3"canvas>
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel3">Day 2: SATURDAY 9AM – 11PM </h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
+                            <div>
+                              <table>
+                                <tr>
+                                  <td class="column1">8:00 am :</td>
+                                  <td>Open doors, light breakfast (cereals etc)</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">9:00 am :</td>
+                                  <td> Briefing on activities to date</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">10:00 am :</td>
+                                  <td> Keynotes/interviews from industry experts</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">12:30 pm :</td>
+                                  <td> Lunch</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">2:00 pm :</td>
+                                  <td> Mentoring sessions with groups or individuals</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">6:00 pm :</td>
+                                  <td> Dinner</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">8:00 pm :</td>
+                                  <td> Team check-in with facilitator</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">8:00 pm :</td>
+                                  <td>Keynotes/interviews from industry experts</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">8:00 pm :</td>
+                                  <td>Lights Out </td>
+                                </tr>
+                              </table>.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="list-inline-item event-list">
+                      <div class="px-4">
+                        <div class="event-date bg-soft-danger">7 February</div>
+                        <div class="event_title">
+                          <h5 class="font-size-16">Day 3 <br> Celebrations </h5>
+                        </div>
+                        <div class="events_content">
+                          <p class="text-muted">Get yourself rewarded with cool prizes for providing the best solutions for real problems.</p>
+                        </div>
+                        <div>
+                          <a href="#offcanvasExample4" class="btn btn-primary btn-sm readmore" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample4">Read more</a>
+                        </div>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample4" aria-labelledby="offcanvasExampleLabel4">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel4">SUNDAY 9AM – 8PM </h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body">
+                            <div>
+                              <table>
+                                <tr>
+                                  <td class="column1">8:00 am :</td>
+                                  <td>Open doors, light breakfast (cereals etc)</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">9:00 am :</td>
+                                  <td> Mentoring sessions and keynotes</td>
+                                </tr>
+
+                                  <td class="column1">12:30 pm :</td>
+                                  <td> Lunch</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">5:00 pm :</td>
+                                  <td> Deadline for submissions of proposals<br>Keynotes/interviews</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">6:00 pm :</td>
+                                  <td> Dinner</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">7:00 pm :</td>
+                                  <td> Judging</td>
+                                </tr>
+                                <tr>
+                                  <td class="column1">8:00 pm :</td>
+                                  <td>
+                                  Thank you and winners/runners up declared.</td>
+                                </tr>
+                              </table>.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end card -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <section id="prizes-content">
+    <div class="container-fluid prizes">
+      <h1 class="prize-amount">$10,000</h1>
+      <p class="prize-amount-other-prizes">
+        A pool and additional prizes will be allocated to the following
+        Awards:
+      </p>
+      <div class="container prizes-container">
+        <div class="prizes-cards">
+          <div class="prizes-image-container">
+            <img src="./styles/images/graph.svg" alt="graph" />
+          </div>
+          <p>Best <br>Data Viz</p>
+        </div>
+        <div class="prizes-cards">
+          <div class="prizes-image-container">
+            <img src="./styles/images/puzzle.svg" alt="graph" />
+          </div>
+          <p>Best Overall Solution</p>
+        </div>
+        <div class="prizes-cards">
+          <div class="prizes-image-container">
+            <img src="./styles/images/frame.svg" alt="graph" />
+          </div>
+          <p>Best Design / User Experience</p>
+        </div>
+        <div class="prizes-cards">
+          <div class="prizes-image-container">
+            <img src="./styles/images/handheart.svg" alt="graph" />
+          </div>
+          <p>Most Unique Solution</p>
+        </div>
+        <div class="prizes-cards">
+          <div class="prizes-image-container">
+            <img src="./styles/images/educate.svg" alt="graph" />
+          </div>
+          <p>Best Project Presentation</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button id="prizesParticipantButton" class="btnSponsor">Become a Participant</button>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container about-container">
+      <div class="about-d4sg">
+        <h1 class="about-heading">What is D4SG?</h1>
+        <div class="row">
+          <div class="col-12 col-lg-6 col-md-6 about-image">
+            <img src="styles\images\D4SG-RGB-Logo-RIcon-Colour-4.png" alt="about image" style="width: 50%" />
+          </div>
+          <div class="col-12 col-lg-6 col-md-6">
+            <p class="about-text">
+              The D4SG (Data for Social Good) Hackathon aims to promote social
+              good through technology and computer science, and to drive
+              sustained innovation and crowd-source solutions to address
+              pressing real-life business problems and social issues.
+            </p>
+            <p class="about-text">
+              We are bringing together +100 passionate and innovative
+              technologists to build software solutions that address specific
+              challenges facing industry today. The panel of subject matter
+              experts will ensure an accurate, fair and transparent process.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="about-dsai">
+        <h1 class="about-heading">About DSAi</h1>
+        <div class="row">
+          <div class="col-12 col-lg-6 col-md-6 about-image">
+            <img src="styles\images\white_logo.png" alt="about image" style="width: 50%" />
+          </div>
+          <div class="col-12 col-lg-6 col-md-6">
+            <p class="about-text">
+              The Data Science and AI Association of Australia is a
+              non-for-profit association determined to connect the data
+              scientist and machine learning community of Australia seeking to
+              gain and share knowledge, grow their network and collaborate on
+              projects.
+            </p>
+            <p class="about-text">
+              Since its inception in 2019, DSAi has committed to hosting and
+              organising a range of activities like meetups, workshops, study
+              groups and publications, aimed to helping professionals
+              understand industry trends, employment scenarios and stay on top
+              of the latest research.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id='sponsors'>
+    <div class="container-fluid sponsor-fluid-container">
+      <h1>Proud Sponsors</h1>
+      <div class="container sponsor-container">
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-4 sponsor-box">
+            <img src="styles\images\APRA.png" alt="apra-logo">
+          </div>
+          <div class="col-12 col-lg-4 col-md-4 sponsor-box">
+            <img src="styles\images\DST.png" alt="dst-logo">
+          </div>
+          <div class="col-12 col-lg-4 col-md-4 sponsor-box">
+            <img src="styles\images\Westpac.png" alt="Westpac-logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id='become-a-sponsor'>
+    <div class="becomeSponsor">
+      <div class="row">
+        <div class="col">
+          <h1>Why Should you partner<br>the D4SG Hackathon?</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col paragraph">
+          <p>
+            Hackathons have some clear advantages over traditional innovation
+            management processes. They are inclusive, agile, promote
+            multidisciplinary collaboration, and have shorter innovation cycles
+            that are better suited to addressing fast-changing consumer demands.
+          </p>
+        </div>
+      </div>
+      <h1>Want to know more? Speak with us!</h1>
+      <div class="btn-container">
+        <button id="sponsorPageButton" class="btnSponsor">Become a Sponsor</button>
+      </div>
+    </div>
+  </section>
+
+  <section id='footer'>
+    <footer class="footer">
+      <div class="row footer-content">
+        <div class="col footer-logo">
+          <div class="footer-image">
+            <img src="./styles/images/D4SG-RGB-Logo-RIcon-Background-Colour-3.jpg" alt="logo" />
+          </div>
+          <div class="social-medias">
+            <a href="#" class="fab fa-lg fa-facebook-square"></a>
+            <a href="#" class="fab fa-lg fa-github"></a>
+            <a href="#" class="fab fa-lg fa-linkedin"></a>
+            <a href="#" class="fab fa-lg fa-meetup"></a>
+            <a href="#" class="far fa-lg fa-envelope"></a>
+          </div>
+        </div>
+
+        <div class="col footer-navigation">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#challenges">Challenges</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#agenda">Hackathon Timeline</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#prizes-content">Prizes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#become-a-sponsor">How to become a sponsor</a>
+            </li>
+          </ul>
+
+            <div class="developers">
+        
+                <div class = "developers-content">
+                  <div class = "heading">
+                   <p>Design & Created By :</p>
+                 </div> 
+                 <div class = "items"> 
+                    <a target="_blank" href="https://www.linkedin.com/in/jose-cotejo/">
+                      <img src = "./styles/images/developers/jose.PNG" />
+                      <p>Jose</p>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/marina-golovina/">
+                      <img src = "./styles/images/developers/marina.jpg" />
+                        <p>Marina</p>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/daniellive/">
+                      <img src = "./styles/images/developers/daniel.jpg" />
+                        <p>Daniel</p>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/mazda-shahzadi-993b55220/">
+                      <img src = "./styles/images/developers/mazda.jpg" />
+                        <p>Mazda</p>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/in/nomalathaaerampu/">
+                      <img src = "./styles/images/developers/nomalatha.jpg" />
+                        <p>Nomalatha</p>
+                    </a>
+                 </div> 
+              </div>
+           </div>
+         </div>
+
+
+      </div>
+      <div class="copyright">
+        <p>© 2021 DSAI | Data Science and AI Association of Australia</p>
+      </div>
+    </footer>
+  </section>
+
+  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="index.js"></script>
+
+</body>
+</html>
